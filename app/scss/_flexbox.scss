@@ -1,0 +1,17 @@
+.df {
+	display: -webkit-flex; /* Safari */
+ 	display: flex;
+}
+
+@mixin flex-direction($direction) {
+	-webkit-flex-direction: $direction;
+	flex-direction: $direction;
+}
+@mixin justify-content($justify) {
+	-webkit-justify-content: $justify;
+	justify-content: $justify;
+}
+@mixin align-items($item) {
+	-webkit-align-items: $item;
+	align-items: $item;
+}

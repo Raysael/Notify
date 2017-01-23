@@ -1,0 +1,24 @@
+footer {
+	height: 8.125vw;
+	background-color: $bgc-content;
+	margin-top: 3.75vw;
+	@extend .df;
+	@include flex-direction(column);
+	@include justify-content(center);
+	@include align-items(center);
+	.footer_nav {
+		width: 560px / 1600px * 100%;
+	@extend .df;
+	@include flex-direction(row);
+	@include justify-content(space-between);
+		a {
+			font-family: "HelveticaNeue";
+    		color: $text-color;
+    		font-size: 1vw;
+    		text-decoration: none;
+		}
+		a:hover {
+			color: $primary-color;
+		}
+	}
+}

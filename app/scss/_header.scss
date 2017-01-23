@@ -1,0 +1,89 @@
+header {
+			background: url("../images/header.png") no-repeat;
+    		-moz-background-size: 100% 100%;
+    		-webkit-background-size: 100% 100%;
+    		-o-background-size: 100% 100%;
+    		background-size: 100% 100%;
+    		border-top: 0.625vw solid $primary-color;
+    		height: 37.3vw;
+				.header{
+					@extend .df;
+					@include flex-direction(row);
+					@include justify-content(space-around);
+					width: 1200px / 1600px * 100%;
+					height: 37.3vw;
+					margin: 0 auto;
+					section {
+						width: 40%;
+						@extend .df;
+						@include flex-direction(column);
+						@include justify-content(center);
+						h1 {
+							font-size: 3.75vw;
+							font-family: "Pacifico";
+							color: $head-color;
+							margin: 0;
+							span {
+								color: $primary-color;
+							}
+						}
+						p {
+						font-size: 1.5vw;
+						font-family: "HelveticaNeueMedium";
+						color: $head-color;
+						}
+						.os {
+							@extend .df;
+							@include flex-direction(row);
+							@include justify-content(flex-start);
+							.os_icon {
+								background-color: rgba(54,35,26, 0.6);
+								height: 3.375vw;
+								width: 3.375vw;
+								border-radius: 50%;
+								margin-right: 4%;
+								@extend .df;
+								@include flex-direction(column);
+								@include justify-content(center);
+								@include align-items(center);
+								a {
+									font-size: 1.625vw;
+									color: rgba(255,255,255, 0.7);
+								}
+							}
+							.os_icon:hover {
+								background-color: $primary-color;
+								cursor: pointer;
+							}
+							.os_icon:hover a {
+								color: $head-color;
+							}
+						}
+					}
+					.container {
+						@extend .df;
+						@include flex-direction(column);
+						@include justify-content(flex-end);
+					.hand {
+						//height: 37.3vw;
+						height: 84.16%;
+						width: 27.375vw;
+						@extend .df;
+						@include flex-direction(column);
+						@include justify-content(flex-end);
+						position: relative;
+						img {
+							height: 100%;
+						}
+						.scrin {
+						height: 15vw;
+						width: 10vw;
+						position: absolute;
+						top: 13.4%;
+						left: 15.5%;
+					}
+					}
+					
+				}
+				}
+		}

@@ -1,0 +1,65 @@
+$primary-color: #2ecc71;
+$text-color: #a1a1a1;
+$h-color:#222;
+$head-color: #fff;
+$bgc-content: #e3e3e3;
+
+
+/* font-family: "HelveticaMedium"; */
+@font-face {
+    font-family: "HelveticaNeueMedium";
+    src: url("../fonts/HelveticaNeueMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("../fonts/Raleway-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+p {
+	font-family: "HelveticaNeue";
+	color: $text-color;
+    font-size: 1vw;
+}
+h2 {
+	font-family: "Raleway-SemiBold";
+	font-weight: normal;
+	color: $h-color;
+    font-size: 1.375vw;
+}
+h3 {
+	font-family: "Raleway-Bold";
+	font-weight: normal;
+	color: $h-color;
+}
+.btn-default {
+    font-family: "Raleway-Bold";
+    font-weight: normal;
+    color: $head-color;
+    font-size: 1.375vw;
+}
+.form-control {
+    font-family: "HelveticaNeue";
+    color: $text-color;
+    font-size: 1.125vw;
+    }
